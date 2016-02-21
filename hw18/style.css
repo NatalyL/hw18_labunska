@@ -119,6 +119,7 @@ body {
 .more {
     display: inline-block;
     padding: 10px 25px;
+    margin-top: 20px;
     border: 2px solid #c2c2c2;
     border-radius: 30px;
     color: #c2c1c1;
