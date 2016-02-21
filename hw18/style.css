@@ -201,6 +201,13 @@ body {
 
 .site-footer p {
     margin: 35px 0;
+    color: #a6a6a6;
+    font-weight: 400;
+}
+
+.pixelhint {
+    color: #939292;
+    font-weight: 700;
 }
 
 .social {

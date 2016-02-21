@@ -2,7 +2,7 @@
     <div class="container clearfix">
         <a href="<?php echo home_url(); ?>"><img
                 src="<?php bloginfo('template_url'); ?>/images/logo-footer.png"></a>
-        <p> &copy; 2014 Blogin.com  -  All Rights Reserved  -  Find more free Templates at Pixelhint.com </p>
+        <p> &copy; 2014 Blogin.com  -  All Rights Reserved  -  Find more free Templates at <a href="http://pixelhint.com/" class="pixelhint">Pixelhint.com</a></p>
 
         <nav class="social clearfix">
 
