@@ -1,0 +1,269 @@
+/*
+theme Name: hw18
+Author: Labunska
+Author URI: http://localhost
+Version: 1.0
+*/
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.clearfix:before,
+.clearfix:after,
+.container:before,
+.container:after {
+    content: "";
+    display: table;
+}
+
+.clearfix:after, .container:after {
+    clear: both;
+}
+
+img {
+    max-width: 100%;
+}
+
+a, a:hover, a:link, a:visited {
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* ---------header------------*/
+
+.site-header {
+    background-color: #292929;
+    box-shadow: inset 0 -6px 0 #1e1e1e;
+}
+
+.site-header h1 {
+    float: left;
+    margin: 0;
+    padding: 40px 0;
+}
+
+.site-nav {
+    float: right;
+    border-left: 1px solid #1e1e1e;
+}
+
+.site-nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+.site-nav ul li {
+    list-style: none;
+    float: left;
+    padding: 50px 5px;
+    border-right: 1px solid #1e1e1e;
+}
+
+.site-nav ul li:hover a {
+    color: #58c93a;
+}
+.site-nav ul li:hover {
+    box-shadow: inset 0 -6px 0 #58c93a;
+}
+
+.site-nav ul li a {
+    text-shadow: 0 1px 0 #1e1e1e;
+    color: white;
+    font-size: 1.2em;
+    font-weight: 700;
+}
+
+/*----------index------------*/
+
+.m-page {
+    border: 1px solid #e1e0e0;
+    padding-top: 80px;
+}
+
+.post {
+    padding: 0 20px 80px 20px;
+}
+
+.post h2 {
+    color: #4f4e4e;
+    font-size: 2em;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+}
+
+.post p {
+    color: #606060;
+    font-size: 1.2em;
+    font-weight: 400;
+}
+
+.blog-post img {
+    width: 100%;
+}
+
+.more {
+    display: inline-block;
+    padding: 10px 25px;
+    border: 2px solid #c2c2c2;
+    border-radius: 30px;
+    color: #c2c1c1;
+    font-size: 1.2em;
+    font-weight: 700;
+}
+
+.links {
+    padding: 30px;
+    border: 1px solid #e1e0e0;
+    border-bottom: none;
+}
+
+.prev, .next {
+    color: #818181;
+    font-size: 1.3em;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.prev span, .next span {
+    padding: 0 5px;
+}
+
+.next {
+    float: right;
+}
+
+.prev {
+    float: left;
+}
+
+.sidebar li {
+    list-style-type: none;
+    padding-bottom: 80px;
+}
+
+.sidebar h2 {
+    margin: 0 0 20px 0;
+    padding: 20px;
+    background-color: #f8f8f8;
+    box-shadow: inset 3px 0 0 #58c93a;
+    color: #6c6969;
+    font-size: 1.2em;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.sidebar p {
+    padding: 0 20px;
+    margin: 0 0 20px 0;
+    color: #737373;
+    font-size: 1.2em;
+    font-weight: 400;
+}
+
+.sidebar input {
+    width: 100%;
+    padding: 20px;
+    border: 1px solid #e1e0e0;
+    color: #b9b9b9;
+    font-size: 0.9em;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+}
+
+.sidebar input[type=email] {
+    padding-right: 50px;
+    background: url("images/arrow-right.png") right 20px center no-repeat;
+}
+
+/*----------------site-footer--------------*/
+
+.site-footer {
+    padding: 80px 0;
+    background-color: #f8f8f8;
+    box-shadow: inset 0 1px 0 #e1e0e0;
+    text-align: center;
+}
+
+.site-footer p {
+    margin: 35px 0;
+}
+
+.social {
+    float:left;
+    width:100%;
+    overflow:hidden;
+    position:relative;
+}
+
+.social ul {
+    list-style-type: none;
+    clear:left;
+    float:left;
+    margin:0;
+    padding:0;
+    position:relative;
+    left:50%;
+    text-align:center;
+}
+
+.social ul li {
+    float: left;
+    margin-right: 20px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    background-color: #e5e5e5;
+    list-style:none;
+    padding:0;
+    position:relative;
+    right:50%;
+}
+
+.social li a {
+    color: #ffffff;
+}
+
+.social li:hover {
+    background-color: #516fad;
+}
+
+
+@media screen and  (min-width: 900px) {
+
+    .site-nav ul li {
+        padding: 50px 45px;
+    }
+
+    .blog-post {
+        width: 70%;
+        float: left;
+        padding-right: 80px;
+    }
+
+    .sidebar {
+        width: 30%;
+        float: left;
+    }
+}
+
+@media screen and  (max-width: 500px) {
+    .container {
+        width: 100%;
+        padding: 0 10px;
+    }
+}
